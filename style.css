@@ -6,14 +6,19 @@
 }
 .Containers {
   display: none;
+  
+}
+. containers img {
+  width:100%;
+  height:90%;
 }
 /* forward & Back buttons */
 .Back, .forward {
   cursor: pointer;
   position: absolute;
-  top: 48%;
-  width: auto;
-  margin-top: -23px;
+  top: 20%;
+  width: 0;
+  margin-top: -25px;
   padding: 17px;
   color: grey;
   font-weight: bold;
@@ -22,6 +27,7 @@
   border-radius: 0 5px 5px 0;
   user-select: none;
 }
+
 .forward {
   right: 0;
   border-radius: 4px 0 0 4px;
@@ -55,6 +61,7 @@
   display: inline-block;
   transition: background-color 0.5s ease;
 }
+
 .enable, .dots:hover {
   background-color: #717161;
 }
